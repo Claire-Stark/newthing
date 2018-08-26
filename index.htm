@@ -11,6 +11,7 @@
 
 </head>
 <body>
+	<h1>Hello</h1>
 	<svg viewBox="0 0 100 100">
 		<!-- stroke-dashArray="150" stroke-dashOffset="150" -->
 		<path  stroke="red" fill="none" d="M53.2,33.6c-1-1.4-3-1.6-4.2-0.4L11.7,70.1c-1.2,1.2-1,3.2,0.3,4.1c6.2,4.4,14,6.2,21.9,4.9c3.6-0.6,7-1.9,10.1-3.8   C59.1,66.2,62.2,46.9,53.2,33.6z"/>
@@ -31,8 +32,12 @@
 			var lineDrawing = anime({
 				  	targets: 'svg path',
 				  	strokeDashoffset: 0,
+
 				  	easing: 'easeInOutSine',
 				  	duration: 3000
+				  	easing: 'easeInSine',
+				  	duration: 2000
+
 				});
 		})
 	</script>
